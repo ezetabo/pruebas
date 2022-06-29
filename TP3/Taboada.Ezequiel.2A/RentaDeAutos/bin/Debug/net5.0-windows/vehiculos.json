@@ -1,0 +1,74 @@
+{
+  "Lista": [
+    {
+      "Patente": "AA 458 BB",
+      "Clasificcacion": 0,
+      "Color": 10,
+      "Alquilado": false,
+      "Costo": 7388
+    },
+    {
+      "Patente": "AB 147 BC",
+      "Clasificcacion": 4,
+      "Color": 7,
+      "Alquilado": false,
+      "Costo": 19612
+    },
+    {
+      "Patente": "AE 325 CB",
+      "Clasificcacion": 2,
+      "Color": 10,
+      "Alquilado": false,
+      "Costo": 10952
+    },
+    {
+      "Patente": "AB 648 AD",
+      "Clasificcacion": 1,
+      "Color": 8,
+      "Alquilado": false,
+      "Costo": 8522
+    },
+    {
+      "Patente": "AA 000 MN",
+      "Clasificcacion": 3,
+      "Color": 13,
+      "Alquilado": false,
+      "Costo": 16720
+    },
+    {
+      "Patente": "AA 222 CD",
+      "Clasificcacion": 0,
+      "Color": 15,
+      "Alquilado": false,
+      "Costo": 7388
+    },
+    {
+      "Patente": "AC 215 MN",
+      "Clasificcacion": 2,
+      "Color": 7,
+      "Alquilado": false,
+      "Costo": 10952
+    },
+    {
+      "Patente": "AB 658 KL",
+      "Clasificcacion": 1,
+      "Color": 14,
+      "Alquilado": false,
+      "Costo": 8522
+    },
+    {
+      "Patente": "AD 874 VG",
+      "Clasificcacion": 0,
+      "Color": 12,
+      "Alquilado": false,
+      "Costo": 7388
+    },
+    {
+      "Patente": "AF 882 SD",
+      "Clasificcacion": 3,
+      "Color": 0,
+      "Alquilado": false,
+      "Costo": 16720
+    }
+  ]
+}

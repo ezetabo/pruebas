@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ControlListasOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Lista>
+    <Cliente>
+      <Dni>25788814</Dni>
+      <Nombre>Jose Luis</Nombre>
+      <Apellido>Cardenas</Apellido>
+      <Telefono>45859696</Telefono>
+    </Cliente>
+    <Cliente>
+      <Dni>16787414</Dni>
+      <Nombre>Maria Luisa</Nombre>
+      <Apellido>Cardenas</Apellido>
+      <Telefono>45859696</Telefono>
+    </Cliente>
+    <Cliente>
+      <Dni>36258814</Dni>
+      <Nombre>Esteban Javier</Nombre>
+      <Apellido>Viola</Apellido>
+      <Telefono>45859696</Telefono>
+    </Cliente>
+    <Cliente>
+      <Dni>41088800</Dni>
+      <Nombre>Lorenzo Juan</Nombre>
+      <Apellido>Videla</Apellido>
+      <Telefono>45859696</Telefono>
+    </Cliente>
+    <Cliente>
+      <Dni>21588885</Dni>
+      <Nombre>Luis Alberto</Nombre>
+      <Apellido>Alvarez</Apellido>
+      <Telefono>45859696</Telefono>
+    </Cliente>
+    <Cliente>
+      <Dni>42188854</Dni>
+      <Nombre>Miguel Alberto</Nombre>
+      <Apellido>Lugo</Apellido>
+      <Telefono>45859696</Telefono>
+    </Cliente>
+    <Cliente>
+      <Dni>34788822</Dni>
+      <Nombre>Mario Jose</Nombre>
+      <Apellido>Rivas</Apellido>
+      <Telefono>45859696</Telefono>
+    </Cliente>
+    <Cliente>
+      <Dni>45788815</Dni>
+      <Nombre>Laura Edith</Nombre>
+      <Apellido>Perez</Apellido>
+      <Telefono>45859696</Telefono>
+    </Cliente>
+    <Cliente>
+      <Dni>35788810</Dni>
+      <Nombre>Mariana Victoria</Nombre>
+      <Apellido>Gomez</Apellido>
+      <Telefono>45859696</Telefono>
+    </Cliente>
+    <Cliente>
+      <Dni>42088802</Dni>
+      <Nombre>Cristina Celeste</Nombre>
+      <Apellido>Sanchez</Apellido>
+      <Telefono>45859696</Telefono>
+    </Cliente>
+  </Lista>
+</ControlListasOfCliente>

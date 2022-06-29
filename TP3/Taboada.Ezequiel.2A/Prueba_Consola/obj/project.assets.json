@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ControlArchivos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Excepciones": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ControlArchivos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ControlArchivos.dll": {}
+        }
+      },
+      "Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entidades.dll": {}
+        }
+      },
+      "Excepciones/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Excepciones.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Excepciones.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ControlArchivos/1.0.0": {
+      "type": "project",
+      "path": "../ControlArchivos/ControlArchivos.csproj",
+      "msbuildProject": "../ControlArchivos/ControlArchivos.csproj"
+    },
+    "Entidades/1.0.0": {
+      "type": "project",
+      "path": "../Entidades/Entidades.csproj",
+      "msbuildProject": "../Entidades/Entidades.csproj"
+    },
+    "Excepciones/1.0.0": {
+      "type": "project",
+      "path": "../Excepciones/Excepciones.csproj",
+      "msbuildProject": "../Excepciones/Excepciones.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ControlArchivos >= 1.0.0",
+      "Entidades >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ezeta\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ezeta\\OneDrive\\Escritorio\\pruebas\\TP3\\Taboada.Ezequiel.2A\\Prueba_Consola\\Prueba_Consola.csproj",
+      "projectName": "Prueba_Consola",
+      "projectPath": "C:\\Users\\ezeta\\OneDrive\\Escritorio\\pruebas\\TP3\\Taboada.Ezequiel.2A\\Prueba_Consola\\Prueba_Consola.csproj",
+      "packagesPath": "C:\\Users\\ezeta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ezeta\\OneDrive\\Escritorio\\pruebas\\TP3\\Taboada.Ezequiel.2A\\Prueba_Consola\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ezeta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\ezeta\\OneDrive\\Escritorio\\pruebas\\TP3\\Taboada.Ezequiel.2A\\ControlArchivos\\ControlArchivos.csproj": {
+              "projectPath": "C:\\Users\\ezeta\\OneDrive\\Escritorio\\pruebas\\TP3\\Taboada.Ezequiel.2A\\ControlArchivos\\ControlArchivos.csproj"
+            },
+            "C:\\Users\\ezeta\\OneDrive\\Escritorio\\pruebas\\TP3\\Taboada.Ezequiel.2A\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\ezeta\\OneDrive\\Escritorio\\pruebas\\TP3\\Taboada.Ezequiel.2A\\Entidades\\Entidades.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "Lista": [
+    {
+      "Dni": "16787414",
+      "Nombre": "Maria Luisa",
+      "Apellido": "Contreras",
+      "Telefono": "45859696"
+    },
+    {
+      "Dni": "36258814",
+      "Nombre": "Esteban Javier",
+      "Apellido": "Viola",
+      "Telefono": "45859696"
+    },
+    {
+      "Dni": "21588885",
+      "Nombre": "Luis Alberto",
+      "Apellido": "Alvarez",
+      "Telefono": "45859696"
+    },
+    {
+      "Dni": "42188854",
+      "Nombre": "Miguel Alberto",
+      "Apellido": "Lugo",
+      "Telefono": "45859696"
+    },
+    {
+      "Dni": "34788822",
+      "Nombre": "Mario Jose",
+      "Apellido": "Rivas",
+      "Telefono": "45859696"
+    },
+    {
+      "Dni": "45788815",
+      "Nombre": "Laura Edith",
+      "Apellido": "Perez",
+      "Telefono": "45859696"
+    },
+    {
+      "Dni": "35788810",
+      "Nombre": "Mariana Victoria",
+      "Apellido": "Gomez",
+      "Telefono": "45859696"
+    },
+    {
+      "Dni": "42088802",
+      "Nombre": "Cristina Celeste",
+      "Apellido": "Sanchez",
+      "Telefono": "45859696"
+    },
+    {
+      "Dni": "45457812",
+      "Nombre": "Luis Lucas",
+      "Apellido": "Lopez",
+      "Telefono": "45457878"
+    }
+  ]
+}

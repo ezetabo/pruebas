@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\ezeta\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\ezeta\\.nuget\\packages"
+    ]
+  }
+}

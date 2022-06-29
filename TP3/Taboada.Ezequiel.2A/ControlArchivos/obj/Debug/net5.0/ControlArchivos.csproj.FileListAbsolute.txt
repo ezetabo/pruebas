@@ -1,0 +1,15 @@
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\bin\Debug\net5.0\ControlArchivos.deps.json
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\bin\Debug\net5.0\ControlArchivos.dll
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\bin\Debug\net5.0\ref\ControlArchivos.dll
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\bin\Debug\net5.0\ControlArchivos.pdb
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\bin\Debug\net5.0\Excepciones.dll
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\bin\Debug\net5.0\Excepciones.pdb
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\obj\Debug\net5.0\ControlArchivos.csproj.AssemblyReference.cache
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\obj\Debug\net5.0\ControlArchivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\obj\Debug\net5.0\ControlArchivos.AssemblyInfoInputs.cache
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\obj\Debug\net5.0\ControlArchivos.AssemblyInfo.cs
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\obj\Debug\net5.0\ControlArchivos.csproj.CoreCompileInputs.cache
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\obj\Debug\net5.0\ControlArchivos.csproj.CopyComplete
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\obj\Debug\net5.0\ControlArchivos.dll
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\obj\Debug\net5.0\ref\ControlArchivos.dll
+C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\ControlArchivos\obj\Debug\net5.0\ControlArchivos.pdb

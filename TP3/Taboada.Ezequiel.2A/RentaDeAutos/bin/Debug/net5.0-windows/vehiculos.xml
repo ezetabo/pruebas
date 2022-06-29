@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ControlListasOfVehiculo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Lista>
+    <Vehiculo>
+      <Patente>AA 458 BB</Patente>
+      <Clasificcacion>Economico</Clasificcacion>
+      <Color>Yellow</Color>
+      <Alquilado>false</Alquilado>
+      <Costo>7388</Costo>
+    </Vehiculo>
+    <Vehiculo>
+      <Patente>AB 648 AD</Patente>
+      <Clasificcacion>Superior</Clasificcacion>
+      <Color>DarkCyan</Color>
+      <Alquilado>false</Alquilado>
+      <Costo>8522</Costo>
+    </Vehiculo>
+    <Vehiculo>
+      <Patente>AA 000 MN</Patente>
+      <Clasificcacion>Superior</Clasificcacion>
+      <Color>Magenta</Color>
+      <Alquilado>false</Alquilado>
+      <Costo>16720</Costo>
+    </Vehiculo>
+    <Vehiculo>
+      <Patente>AA 222 CD</Patente>
+      <Clasificcacion>Economico</Clasificcacion>
+      <Color>White</Color>
+      <Alquilado>false</Alquilado>
+      <Costo>7388</Costo>
+    </Vehiculo>
+    <Vehiculo>
+      <Patente>AC 215 MN</Patente>
+      <Clasificcacion>Mini</Clasificcacion>
+      <Color>Gray</Color>
+      <Alquilado>false</Alquilado>
+      <Costo>10952</Costo>
+    </Vehiculo>
+    <Vehiculo>
+      <Patente>AD 874 VG</Patente>
+      <Clasificcacion>Economico</Clasificcacion>
+      <Color>Red</Color>
+      <Alquilado>false</Alquilado>
+      <Costo>7388</Costo>
+    </Vehiculo>
+    <Vehiculo>
+      <Patente>AF 882 SD</Patente>
+      <Clasificcacion>Superior</Clasificcacion>
+      <Color>Black</Color>
+      <Alquilado>false</Alquilado>
+      <Costo>16720</Costo>
+    </Vehiculo>
+    <Vehiculo>
+      <Patente>BC 145 FC</Patente>
+      <Clasificcacion>Van</Clasificcacion>
+      <Color>Yellow</Color>
+      <Alquilado>false</Alquilado>
+      <Costo>19612</Costo>
+    </Vehiculo>
+    <Vehiculo>
+      <Patente>DF 147 LK</Patente>
+      <Clasificcacion>Economico</Clasificcacion>
+      <Color>Black</Color>
+      <Alquilado>false</Alquilado>
+      <Costo>7388</Costo>
+    </Vehiculo>
+    <Vehiculo>
+      <Patente>DE 851 GT</Patente>
+      <Clasificcacion>Mini</Clasificcacion>
+      <Color>Blue</Color>
+      <Alquilado>false</Alquilado>
+      <Costo>10952</Costo>
+    </Vehiculo>
+  </Lista>
+</ControlListasOfVehiculo>
