@@ -128,7 +128,7 @@ namespace RentaDeAutos
             this.Controls.Add(this.label2);
             this.Name = "FrmClienteModificacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmClienteModificacion";
+            this.Text = "Modificacion de Cleintes";
             this.Load += new System.EventHandler(this.FrmClienteModificacion_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.button1, 0);

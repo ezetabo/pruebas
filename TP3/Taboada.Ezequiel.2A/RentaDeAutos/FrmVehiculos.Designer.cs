@@ -31,7 +31,7 @@ namespace RentaDeAutos
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmVehiculos));
             this.gpbCliente = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnLiberar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.txtPatente = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,7 +46,7 @@ namespace RentaDeAutos
             // 
             // gpbCliente
             // 
-            this.gpbCliente.Controls.Add(this.button1);
+            this.gpbCliente.Controls.Add(this.btnLiberar);
             this.gpbCliente.Controls.Add(this.btnLimpiar);
             this.gpbCliente.Controls.Add(this.txtPatente);
             this.gpbCliente.Controls.Add(this.label1);
@@ -62,18 +62,18 @@ namespace RentaDeAutos
             this.gpbCliente.TabStop = false;
             this.gpbCliente.Text = "Vehiculos";
             // 
-            // button1
+            // btnLiberar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(675, 11);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 43);
-            this.button1.TabIndex = 13;
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnLiberar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btnLiberar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLiberar.BackgroundImage")));
+            this.btnLiberar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btnLiberar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLiberar.Location = new System.Drawing.Point(675, 11);
+            this.btnLiberar.Name = "btnLiberar";
+            this.btnLiberar.Size = new System.Drawing.Size(91, 43);
+            this.btnLiberar.TabIndex = 13;
+            this.btnLiberar.UseVisualStyleBackColor = false;
+            this.btnLiberar.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnLimpiar
             // 
@@ -196,6 +196,6 @@ namespace RentaDeAutos
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtPatente;
         private System.Windows.Forms.Button btnLimpiar;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLiberar;
     }
 }

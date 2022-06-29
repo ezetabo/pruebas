@@ -91,7 +91,7 @@ namespace RentaDeAutos
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "FrmAltaHerencia";
-            this.Text = "FrmCarga";
+            this.Text = "Carga";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

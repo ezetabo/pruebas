@@ -59,28 +59,27 @@ namespace RentaDeAutos
 
         private void btnAlquilar_Click(object sender, EventArgs e)
         {
-
-            double total = this.vehiculo.Costo * (double)numericUpDown1.Value;
-            this.lblTotal.Text = total.ToString();
-            this.vehiculo.Alquilado = true;
-            this.alquilerCliente = new AlquilerCliente(cliente, vehiculo, (int)numericUpDown1.Value);
-            if (registros != alquilerCliente)
+            if (!string.IsNullOrEmpty(this.rtbCliente.Text) && !string.IsNullOrEmpty(this.rtbVehiculo.Text))
             {
-                _ = registros + alquilerCliente;
+                double total = this.vehiculo.Costo * (double)numericUpDown1.Value;
+                this.lblTotal.Text = total.ToString();
+                this.vehiculo.Alquilado = true;
+                this.alquilerCliente = new AlquilerCliente(cliente, vehiculo, (int)numericUpDown1.Value);
+
+                if (GenerarTicket())
+                {
+                    if (MessageBox.Show("** Ticket impreso correctamente **") == DialogResult.OK)
+                    {
+                        Limpiar();
+                    }
+                }
             }
             else
             {
-                int indice = ControlListas<AlquilerCliente>.BuscarIndex(registros, alquilerCliente);
-                _ = registros.Lista[indice] + vehiculo;
+                MessageBox.Show("** Por favor verefique que haya seleccionado un cliente y un vehiculo **");
+               
             }
-
-            if (GenerarTicket())
-            {
-                if (MessageBox.Show("** Ticket impreso correctamente **") == DialogResult.OK)
-                {
-                    Limpiar();
-                }
-            }
+           
         }
 
         private bool GenerarTicket()
@@ -94,6 +93,7 @@ namespace RentaDeAutos
             sb.AppendLine($"tipo de Vehiculo: {this.vehiculo.Clasificcacion} - Patente: {this.vehiculo.Patente}");
             sb.AppendLine($"Color: {this.vehiculo.Color} - Precio por dia: ${this.vehiculo.Costo:0.00}");
             sb.AppendLine($"Cantidad de dias:  {this.numericUpDown1.Value}");
+            sb.AppendLine($"Fecha de regreso:  {this.lblFechaRetorno.Text}");
             sb.AppendLine($"Total a pagar:  ${this.lblTotal.Text}");
             sb.AppendLine("******************************************************");
             return txt.Escribir(path + DateTime.Now.ToString("HH_mm_ss") + ".txt", sb.ToString());
@@ -105,11 +105,19 @@ namespace RentaDeAutos
             this.rtbVehiculo.Clear();
             this.numericUpDown1.Value = 1;
             this.lblTotal.Text = string.Empty;
+            this.lblFechaActual.Text = DateTime.Now.ToShortDateString();
+            this.lblFechaRetorno.Text = DateTime.Now.AddDays((double)this.numericUpDown1.Value).ToShortDateString();
         }
 
         private void FrmAlquilar_Load(object sender, EventArgs e)
         {
+           
             Limpiar();
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            this.lblFechaRetorno.Text = DateTime.Now.AddDays((double)this.numericUpDown1.Value).ToShortDateString();
         }
     }
 }

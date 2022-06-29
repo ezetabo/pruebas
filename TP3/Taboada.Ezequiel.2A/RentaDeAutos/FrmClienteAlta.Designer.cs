@@ -132,7 +132,7 @@ namespace RentaDeAutos
             this.MinimizeBox = false;
             this.Name = "FrmClienteAlta";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmClienteAlta";
+            this.Text = "Alta de Clientes";
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.button1, 0);
             this.Controls.SetChildIndex(this.button2, 0);

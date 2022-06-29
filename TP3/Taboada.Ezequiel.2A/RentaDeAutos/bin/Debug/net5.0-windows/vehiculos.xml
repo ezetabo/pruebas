@@ -12,7 +12,7 @@
       <Patente>AB 648 AD</Patente>
       <Clasificcacion>Superior</Clasificcacion>
       <Color>DarkCyan</Color>
-      <Alquilado>false</Alquilado>
+      <Alquilado>true</Alquilado>
       <Costo>8522</Costo>
     </Vehiculo>
     <Vehiculo>
@@ -61,7 +61,7 @@
       <Patente>DF 147 LK</Patente>
       <Clasificcacion>Economico</Clasificcacion>
       <Color>Black</Color>
-      <Alquilado>false</Alquilado>
+      <Alquilado>true</Alquilado>
       <Costo>7388</Costo>
     </Vehiculo>
     <Vehiculo>

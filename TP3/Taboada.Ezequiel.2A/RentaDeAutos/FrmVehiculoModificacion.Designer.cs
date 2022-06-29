@@ -110,7 +110,7 @@ namespace RentaDeAutos
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Name = "FrmVehiculoModificacion";
-            this.Text = "FrmVehiculoModificacion";
+            this.Text = "Modificacion de Vehiculos";
             this.Load += new System.EventHandler(this.FrmVehiculoModificacion_Load);
             this.Controls.SetChildIndex(this.label1, 0);
             this.Controls.SetChildIndex(this.button1, 0);
