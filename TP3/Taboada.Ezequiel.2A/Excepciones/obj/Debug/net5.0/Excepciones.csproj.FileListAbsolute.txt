@@ -10,3 +10,15 @@ C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug
 C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug\net5.0\Excepciones.dll
 C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug\net5.0\ref\Excepciones.dll
 C:\Users\ezeta\OneDrive\Escritorio\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug\net5.0\Excepciones.pdb
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\bin\Debug\net5.0\Excepciones.deps.json
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\bin\Debug\net5.0\Excepciones.dll
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\bin\Debug\net5.0\ref\Excepciones.dll
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\bin\Debug\net5.0\Excepciones.pdb
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug\net5.0\Excepciones.csproj.AssemblyReference.cache
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug\net5.0\Excepciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug\net5.0\Excepciones.AssemblyInfoInputs.cache
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug\net5.0\Excepciones.AssemblyInfo.cs
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug\net5.0\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug\net5.0\Excepciones.dll
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug\net5.0\ref\Excepciones.dll
+C:\Users\ezeta\OneDrive\Escritorio\pruebas\TP3\Taboada.Ezequiel.2A\Excepciones\obj\Debug\net5.0\Excepciones.pdb

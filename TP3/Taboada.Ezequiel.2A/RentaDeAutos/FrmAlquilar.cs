@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using ControlArchivos;
 using Entidades;
@@ -21,7 +15,7 @@ namespace RentaDeAutos
         private AlquilerCliente alquilerCliente;
         private ControlListas<AlquilerCliente> registros;
         private Serializador<ControlListas<AlquilerCliente>> serializadorRegistros;
-       
+
 
         public FrmAlquilar(ControlListas<Cliente> clientes, ControlListas<Vehiculo> vehiculos)
         {
@@ -29,7 +23,8 @@ namespace RentaDeAutos
             this.clientes = clientes;
             this.vehiculos = vehiculos;
             this.registros = new ControlListas<AlquilerCliente>();
-           
+            this.serializadorRegistros = new Serializador<ControlListas<AlquilerCliente>>(ETipoExtenxion.Xml);
+
         }
 
         public AlquilerCliente AlquilerCliente { get => alquilerCliente; set => alquilerCliente = value; }
@@ -52,7 +47,7 @@ namespace RentaDeAutos
             frmVehiculos.ShowDialog();
             if (frmVehiculos.DialogResult == DialogResult.OK)
             {
-                this.vehiculo = frmVehiculos.Vehiculo;                
+                this.vehiculo = frmVehiculos.Vehiculo;
                 this.rtbVehiculo.Text += this.vehiculo.ToString();
             }
         }
@@ -64,22 +59,31 @@ namespace RentaDeAutos
                 double total = this.vehiculo.Costo * (double)numericUpDown1.Value;
                 this.lblTotal.Text = total.ToString();
                 this.vehiculo.Alquilado = true;
-                this.alquilerCliente = new AlquilerCliente(cliente, vehiculo, (int)numericUpDown1.Value);
-
-                if (GenerarTicket())
+                this.alquilerCliente = new AlquilerCliente(cliente, vehiculo, (int)numericUpDown1.Value, total, DateTime.Now, DateTime.Now.AddDays((double)this.numericUpDown1.Value));
+                registros.Lista.Add(this.alquilerCliente);
+                serializadorRegistros.Escribir("Registros.xml", registros);
+                if (numericUpDown1.Value > 0)
                 {
-                    if (MessageBox.Show("** Ticket impreso correctamente **") == DialogResult.OK)
+                    if (GenerarTicket())
                     {
-                        Limpiar();
+                        if (MessageBox.Show("** Ticket impreso correctamente **") == DialogResult.OK)
+                        {
+                            Limpiar();
+                        }
                     }
                 }
+                else
+                {
+                    MessageBox.Show("** Por favor seleccione por lo menos 1 dia **");
+                }
+
             }
             else
             {
                 MessageBox.Show("** Por favor verefique que haya seleccionado un cliente y un vehiculo **");
-               
+
             }
-           
+
         }
 
         private bool GenerarTicket()
@@ -111,12 +115,18 @@ namespace RentaDeAutos
 
         private void FrmAlquilar_Load(object sender, EventArgs e)
         {
-           
+            this.registros = serializadorRegistros.Leer("Registros.xml");
             Limpiar();
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
+            double total = 0;
+            if (this.vehiculo is not null)
+            {
+                total = this.vehiculo.Costo * (double)numericUpDown1.Value;
+            }
+            this.lblTotal.Text = total.ToString();
             this.lblFechaRetorno.Text = DateTime.Now.AddDays((double)this.numericUpDown1.Value).ToShortDateString();
         }
     }

@@ -21,23 +21,22 @@ namespace Entidades
         public Vehiculo VehiculoActual { get => vehiculoActual; set => vehiculoActual = value; }
         public int CantidadDias { get => cantidadDias; set => cantidadDias = value; }
         public double Total { get => total; set => total = value; }
+        public DateTime FechaAlquiler { get => fechaAlquiler; set => fechaAlquiler = value; }
+        public DateTime FechaRetorno { get => fechaRetorno; set => fechaRetorno = value; }
 
         public AlquilerCliente()
         {
            
         }
 
-        public AlquilerCliente(Cliente cliente, Vehiculo vehiculo,int dias)
-            : this()
+        public AlquilerCliente(Cliente cliente, Vehiculo vehiculoActual, int cantidadDias, double total, DateTime fechaAlquiler, DateTime fechaRetorno)
         {
             this.cliente = cliente;
-            this.vehiculoActual = vehiculo;
-            this.cantidadDias = dias;
+            this.vehiculoActual = vehiculoActual;
+            this.cantidadDias = cantidadDias;
+            this.total = total;
+            this.fechaAlquiler = fechaAlquiler;
+            this.fechaRetorno = fechaRetorno;
         }
-              
-        
-       
-
-       
     }
 }

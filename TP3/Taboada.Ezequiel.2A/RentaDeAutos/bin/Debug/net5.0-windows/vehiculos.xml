@@ -5,7 +5,7 @@
       <Patente>AA 458 BB</Patente>
       <Clasificcacion>Economico</Clasificcacion>
       <Color>Yellow</Color>
-      <Alquilado>false</Alquilado>
+      <Alquilado>true</Alquilado>
       <Costo>7388</Costo>
     </Vehiculo>
     <Vehiculo>
@@ -54,14 +54,14 @@
       <Patente>BC 145 FC</Patente>
       <Clasificcacion>Van</Clasificcacion>
       <Color>Yellow</Color>
-      <Alquilado>false</Alquilado>
+      <Alquilado>true</Alquilado>
       <Costo>19612</Costo>
     </Vehiculo>
     <Vehiculo>
       <Patente>DF 147 LK</Patente>
       <Clasificcacion>Economico</Clasificcacion>
       <Color>Black</Color>
-      <Alquilado>true</Alquilado>
+      <Alquilado>false</Alquilado>
       <Costo>7388</Costo>
     </Vehiculo>
     <Vehiculo>

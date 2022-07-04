@@ -108,7 +108,7 @@ namespace RentaDeAutos
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(459, 292);
+            this.label2.Location = new System.Drawing.Point(92, 376);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 23);
             this.label2.TabIndex = 6;
@@ -119,7 +119,7 @@ namespace RentaDeAutos
             // 
             this.lblTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblTotal.Location = new System.Drawing.Point(573, 279);
+            this.lblTotal.Location = new System.Drawing.Point(206, 363);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(211, 46);
             this.lblTotal.TabIndex = 7;
@@ -181,6 +181,7 @@ namespace RentaDeAutos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1256, 534);
             this.Controls.Add(this.lblFechaRetorno);
             this.Controls.Add(this.lblFechaActual);

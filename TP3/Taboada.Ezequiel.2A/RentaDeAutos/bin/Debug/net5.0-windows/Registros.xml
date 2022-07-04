@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ControlListasOfAlquilerCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Lista>
+    <AlquilerCliente>
+      <Cliente>
+        <Dni>45457812</Dni>
+        <Nombre>Luis Lucas</Nombre>
+        <Apellido>Lopez</Apellido>
+        <Telefono>45457878</Telefono>
+      </Cliente>
+      <VehiculoActual>
+        <Patente>DE 851 GT</Patente>
+        <Clasificcacion>Mini</Clasificcacion>
+        <Color>Blue</Color>
+        <Alquilado>true</Alquilado>
+        <Costo>10952</Costo>
+      </VehiculoActual>
+      <CantidadDias>5</CantidadDias>
+      <Total>54760</Total>
+      <FechaAlquiler>2022-06-29T19:41:00.4211047-03:00</FechaAlquiler>
+      <FechaRetorno>2022-07-04T19:41:00.4211084-03:00</FechaRetorno>
+    </AlquilerCliente>
+    <AlquilerCliente>
+      <Cliente>
+        <Dni>21588885</Dni>
+        <Nombre>Luis Alberto</Nombre>
+        <Apellido>Alvarez</Apellido>
+        <Telefono>45859696</Telefono>
+      </Cliente>
+      <VehiculoActual>
+        <Patente>AA 000 MN</Patente>
+        <Clasificcacion>Superior</Clasificcacion>
+        <Color>Magenta</Color>
+        <Alquilado>true</Alquilado>
+        <Costo>16720</Costo>
+      </VehiculoActual>
+      <CantidadDias>2</CantidadDias>
+      <Total>33440</Total>
+      <FechaAlquiler>2022-06-29T19:42:16.9324578-03:00</FechaAlquiler>
+      <FechaRetorno>2022-07-01T19:42:16.9324619-03:00</FechaRetorno>
+    </AlquilerCliente>
+    <AlquilerCliente>
+      <Cliente>
+        <Dni>42188854</Dni>
+        <Nombre>Miguel Alberto</Nombre>
+        <Apellido>Lugo</Apellido>
+        <Telefono>45859696</Telefono>
+      </Cliente>
+      <VehiculoActual>
+        <Patente>AD 874 VG</Patente>
+        <Clasificcacion>Economico</Clasificcacion>
+        <Color>Red</Color>
+        <Alquilado>true</Alquilado>
+        <Costo>7388</Costo>
+      </VehiculoActual>
+      <CantidadDias>0</CantidadDias>
+      <Total>0</Total>
+      <FechaAlquiler>2022-07-04T10:42:19.4779891-03:00</FechaAlquiler>
+      <FechaRetorno>2022-07-04T10:42:19.477993-03:00</FechaRetorno>
+    </AlquilerCliente>
+    <AlquilerCliente>
+      <Cliente>
+        <Dni>16787414</Dni>
+        <Nombre>Maria Luisa</Nombre>
+        <Apellido>Contreras</Apellido>
+        <Telefono>45859696</Telefono>
+      </Cliente>
+      <VehiculoActual>
+        <Patente>AB 648 AD</Patente>
+        <Clasificcacion>Superior</Clasificcacion>
+        <Color>DarkCyan</Color>
+        <Alquilado>true</Alquilado>
+        <Costo>8522</Costo>
+      </VehiculoActual>
+      <CantidadDias>1</CantidadDias>
+      <Total>8522</Total>
+      <FechaAlquiler>2022-07-04T11:48:32.9588182-03:00</FechaAlquiler>
+      <FechaRetorno>2022-07-05T11:48:32.9588221-03:00</FechaRetorno>
+    </AlquilerCliente>
+    <AlquilerCliente>
+      <Cliente>
+        <Dni>16787414</Dni>
+        <Nombre>Maria Luisa</Nombre>
+        <Apellido>Contreras</Apellido>
+        <Telefono>45859696</Telefono>
+      </Cliente>
+      <VehiculoActual>
+        <Patente>AB 648 AD</Patente>
+        <Clasificcacion>Superior</Clasificcacion>
+        <Color>DarkCyan</Color>
+        <Alquilado>true</Alquilado>
+        <Costo>8522</Costo>
+      </VehiculoActual>
+      <CantidadDias>3</CantidadDias>
+      <Total>25566</Total>
+      <FechaAlquiler>2022-07-04T11:56:06.4974381-03:00</FechaAlquiler>
+      <FechaRetorno>2022-07-07T11:56:06.4974418-03:00</FechaRetorno>
+    </AlquilerCliente>
+    <AlquilerCliente>
+      <Cliente>
+        <Dni>21588885</Dni>
+        <Nombre>Luis Alberto</Nombre>
+        <Apellido>Alvarez</Apellido>
+        <Telefono>45859696</Telefono>
+      </Cliente>
+      <VehiculoActual>
+        <Patente>BC 145 FC</Patente>
+        <Clasificcacion>Van</Clasificcacion>
+        <Color>Yellow</Color>
+        <Alquilado>true</Alquilado>
+        <Costo>19612</Costo>
+      </VehiculoActual>
+      <CantidadDias>5</CantidadDias>
+      <Total>98060</Total>
+      <FechaAlquiler>2022-07-04T11:57:59.0465958-03:00</FechaAlquiler>
+      <FechaRetorno>2022-07-09T11:57:59.0465984-03:00</FechaRetorno>
+    </AlquilerCliente>
+    <AlquilerCliente>
+      <Cliente>
+        <Dni>16787414</Dni>
+        <Nombre>Maria Luisa</Nombre>
+        <Apellido>Contreras</Apellido>
+        <Telefono>45859696</Telefono>
+      </Cliente>
+      <VehiculoActual>
+        <Patente>AA 458 BB</Patente>
+        <Clasificcacion>Economico</Clasificcacion>
+        <Color>Yellow</Color>
+        <Alquilado>true</Alquilado>
+        <Costo>7388</Costo>
+      </VehiculoActual>
+      <CantidadDias>4</CantidadDias>
+      <Total>29552</Total>
+      <FechaAlquiler>2022-07-04T12:15:31.9070505-03:00</FechaAlquiler>
+      <FechaRetorno>2022-07-08T12:15:31.9070535-03:00</FechaRetorno>
+    </AlquilerCliente>
+  </Lista>
+</ControlListasOfAlquilerCliente>
